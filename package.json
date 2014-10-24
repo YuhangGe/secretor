@@ -1,12 +1,22 @@
 {
-  "name": "secret",
+  "name": "secretor",
   "version": "1.0.0",
   "description": "simple file encoder and decoder",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
-  "bin" : ".bin/secretor.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuhangGe/secretor"
+  },
+  "bugs": {
+      "url": "https://github.com/YuhangGe/secretor/issues"
+  },
+  "homepage": "https://github.com/YuhangGe/secretor",
+  "bin" : {
+      "secretor" : ".bin/secretor.js"
+  },
   "keywords": [
     "file",
     "encoder",
