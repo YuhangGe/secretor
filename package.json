@@ -1,0 +1,22 @@
+{
+  "name": "secret",
+  "version": "1.0.0",
+  "description": "simple file encoder and decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "bin" : ".bin/secretor.js",
+  "keywords": [
+    "file",
+    "encoder",
+    "decoder"
+  ],
+  "author": "Yuhang Ge",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^1.1.1",
+    "underscore": "^1.7.0",
+    "yargs": "^1.3.2"
+  }
+}

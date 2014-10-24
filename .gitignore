@@ -1,0 +1,5 @@
+# Created by .gitignore support plugin (hsz.mobi)
+node_modules
+test/big-file.dmg
+test/pdf.pdf
+test
